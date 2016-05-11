@@ -1,0 +1,100 @@
+/*
+	=========Credits=========
+	 Made By Samuel Tamplin
+	*/
+*{
+  font-family: sans-serif;
+  text-shadow: 0 5px 9px rgba(0, 0, 0, 0.19), 0 2px 2px rgba(0, 0, 0, 0.23);
+  
+}
+body{
+  background-color: #D5E9FF;
+  margin: 0;
+  padding: 0;
+  background-image: url(nature_landscape_wallapper.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.container{
+  width: 960px;
+  height: auto;
+  overflow: hidden;
+  margin: auto;
+  /*optional background colour*/
+  /*background-color: #D5E9FF;*/
+  border-radius: 2px;
+  /*optional box shadowing*/
+  /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);*/
+}
+.gallery{
+  width: 930px;
+  height: 300px;
+  margin: 15px;
+  float: left;
+}
+.img_block{
+
+  width: 300px;
+  height: 290px;
+  float: left;
+  margin: 5px;
+  background-color: #EEE;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s ease-in-out;
+  border-radius: 2px;
+}
+.img_block:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 0px;
+}
+.img_text{
+  height: 50px;
+  width:100%;
+  padding:2px;
+  text-align: center;
+}
+img{
+  height:auto;
+  max-height: 240px;
+  width: 100%;
+}
+.pos{
+  position: absolute;
+  width: 300px;
+  height: 290px;
+  float: left;
+  margin: 5px;
+  background-color: #EEE;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s ease-in-out;
+  border-radius: 2px;
+  left: 50%;
+  up:50%;
+  margin-left: -300px;
+  margin-top: 150px;
+  height: 600px;
+  width: 580px;
+  
+}
+.pos:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 0px;
+}
+h1{
+	text-align: center;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.19);
+	color:#eee;
+}
+footer{
+	text-align: center;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.19);
+	color:#eee;
+}
+/*
+  Feel free to leach or 'fork' this code
+  Made by Samuel("Winux") Tamplin
+
+  |  | | |\ | |  | \_/
+  |/\| | | \| \__/ / \
+
+*/
